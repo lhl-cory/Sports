@@ -10,8 +10,4 @@
 
 @implementation BiasedRef
 
--(BOOL)team:(Team *)team shouldScore:(int)numberOfPoints {
-    return team == self.favouriteTeam;
-}
-
 @end

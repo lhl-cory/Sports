@@ -10,8 +10,4 @@
 
 @implementation FairRef
 
--(BOOL)team:(Team *)team shouldScore:(int)numberOfPoints {
-    return true;
-}
-
 @end

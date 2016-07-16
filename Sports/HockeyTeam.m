@@ -10,13 +10,4 @@
 
 @implementation HockeyTeam
 
-- (instancetype)init
-{
-    self = [super initWithPlayers:6 andScoreIncrement:1];
-    if (self) {
-    }
-    return self;
-}
-
-
 @end

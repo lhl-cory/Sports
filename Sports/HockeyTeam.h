@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Team.h"
 
-@interface HockeyTeam : Team
+@interface HockeyTeam : NSObject
 
 @end

@@ -10,23 +10,5 @@
 
 @implementation Team
 
-- (instancetype)initWithPlayers:(int)players andScoreIncrement:(int)scoreIncrement {
-    self = [super init];
-    if (self) {
-        _players = players;
-        _scoreIncrement = scoreIncrement;
-    }
-    return self;
-}
-
--(void)increaseScore {
-    if (!self.delegate) {
-        self.score += self.scoreIncrement;
-    } else {
-        if ([self.delegate team:self shouldScore:self.scoreIncrement]) {
-            self.score += self.scoreIncrement;
-        }
-    }
-}
 
 @end

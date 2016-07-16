@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Team.h"
 
-@interface FairRef : NSObject <TeamDelegate>
+@interface FairRef : NSObject
 
 @end

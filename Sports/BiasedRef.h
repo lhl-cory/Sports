@@ -7,10 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Team.h"
 
-@interface BiasedRef : NSObject <TeamDelegate>
-
-@property Team *favouriteTeam;
+@interface BiasedRef : NSObject
 
 @end
